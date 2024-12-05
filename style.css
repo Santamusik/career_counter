@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* 컨테이너 정렬 */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #444;
+}
+
+/* 폼 컨테이너 */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* 버튼 스타일 */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px 2px 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 경력 및 휴직 추가 영역 */
+#leave-periods, #career-periods {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.career-period, .leave-period {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+/* 결과 영역 */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f7e9;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+    font-weight: bold;
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,28 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경력계산기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>경력 계산기</h1>
+    <form id="career-form">
+        <div>
+            <label for="start-date">경력 시작일:</label>
+            <input type="date" id="start-date" required>
+        </div>
+        <div>
+            <label for="end-date">경력 종료일:</label>
+            <input type="date" id="end-date" required>
+        </div>
+        <button type="button" id="add-leave">휴직 추가</button>
+        <div id="leave-periods"></div>
+        <button type="button" id="add-period">경력 추가</button>
+        <div id="career-periods"></div>
+        <button type="button" id="calculate">계산하기</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
